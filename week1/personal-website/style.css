@@ -1,0 +1,62 @@
+body {
+      text-align: center;
+      background: url("file:///Users/User/Desktop/GA/Matt_AboutMe/Attachments_201579/mario-bros.jpg");
+      background-position: center;
+      font-family: helvetica;
+      background-attachment: fixed;
+      background-size: 1200px 800px;
+    background-repeat: no-repeat;
+    }
+
+h1 {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 100px;
+	color: #254117;
+}
+h2{
+	font-size: 40px;
+	color: #9DC209;
+	font-family: sans-serif;
+	font-weight: bolder;
+
+}
+h4 {
+	font-family: arial;
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a {
+	color: #FBB117;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+p {
+	font-size: 40px;
+	color: #0000A0;
+}
+img.matt{
+	box-shadow: 10px 10px 10px #fff;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+div.matt {
+    width: 350px;
+    padding: 15px;
+    border: 5px solid navy;
+    margin: 0 auto;
+}
+div.jordan {
+	width: 10px;
+    margin: 0 auto;
+}
+img.resize {
+	max-width: 150px; 
+	max-height: 150px;
+	padding: 5px;
+	margin: 0 auto;
+}
