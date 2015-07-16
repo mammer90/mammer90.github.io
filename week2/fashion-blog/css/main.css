@@ -9,20 +9,22 @@ h1 {
 	color: red;
 	font-weight: 300;
 	margin-bottom: 5px;
-	font-size: 2em;
+	font-size: 3em;
 	padding-left: 54px;
 }
 
 h2 {
 	color: black;
-	font-size: 20px;
+	font-size: 30px;
+	font-weight: 100;
 	
 }
 
 h3 {
 	color: #cccccc;
-	text-transform: bold;
 	line-height: 1.5px;
+	font-size: 30px;
+	font-weight: 100;
 	
 }
 h4 {
@@ -45,10 +47,23 @@ a {
 	color: #dd0000;
 	padding: 10px;
 	font-family: 'Lato', sans-serif;
-	
+	margin-left: 5px;
 	
 }
+div a{
+
+	color: #dddddd;
+	padding: 5px;
+	margin-left: 45px;
+	text-decoration: underline;
+}
 a:hover {
+	color: #aa0000;
+}
+div a:hover {
+	color: black;
+}
+div.continues:hover{
 	color: #aa0000;
 }
 
@@ -56,6 +71,7 @@ a:hover {
 	text-align: right;
 	color: red;
 	width: 720px;
+	text-decoration: none;
 }
 
 #street {
@@ -83,5 +99,7 @@ hr {
 }
 #bottom {
 	color: #bbbbbb;
+	padding: 54px;
+
 }
 
