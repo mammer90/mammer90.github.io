@@ -1,0 +1,168 @@
+body{
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-image: url(images/bg.png);
+}
+
+nav {
+  background-color: black;
+  margin-left: 10px;
+  padding: 15px;
+}
+a{
+  text-decoration: none;
+  color: #1FA2E1;
+
+}
+
+a:hover{
+  text-decoration: underline;
+}
+nav a {
+  color: #cccccc;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-left: 30px;
+}
+
+header {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+nav a:hover {
+  background-color: #96DDFC;
+  color: #ffffff;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  
+}
+#main {
+  line-height: 0px;
+  padding-top: 50px;
+}
+
+.google, .twitter, .facebook, .rss {
+  background-image: url(images/socialNav.png);
+  background-repeat: no-repeat;
+  float: right;
+  width: 194px; 
+  height: 97px;
+}
+
+/*.google { <----NOT SURE HOW TO DO THIS---->
+  width: 49px;
+  background-position: -49px 97px;
+}
+
+.twitter {
+  width: 35px;
+  background-position: -5px -43px;
+}
+
+.facebook {
+  width: 47px;
+  background-position: -5px -68px;
+}
+.rss {
+  width: 50px;
+  background-position: -5px -80px;
+
+}*/
+
+#button_blurb{
+  border: 1.5px inset #e2e2e2;
+  }
+
+#button_blurb p {
+  font-size: 15px;
+  display: inline-block;
+
+}
+#blurb {
+  float: right;
+}
+
+.homebox{
+  width: 290px;
+  margin: 15px;
+  float: left;
+  font-size: 13px; 
+}
+
+.homebox h2{
+  font-weight: normal;
+}
+  
+.homebox img{
+  border: 6px solid #e2e2e2;
+}
+
+.homebox img:hover{
+  border: 6px solid #f9f9f9;
+}
+
+footer {
+  background-color: black;
+  clear: both;
+  font-size: 13px;
+  color: #515151;
+  width: 100%;
+  height: 300px;
+}
+
+#blogroll {
+  width: 210px;
+  margin: 10px;
+
+}
+.box-footer {
+  float: left;
+  color: #cccccc;
+  
+}
+
+.middle-widget h2 {
+  color: #cccccc;
+}
+
+#widget{
+  float: left;
+  width: 400px;
+  margin: 30px;
+  }
+
+#meta_widget {
+  width: 210px;
+  margin: 30px;
+
+}
+#blogroll #widget #meta_widget h2{
+  color: #dddddd;
+}
+#copyright {
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+#companybottom {
+  display: inline-block;
+  float: right;
+}
+
+

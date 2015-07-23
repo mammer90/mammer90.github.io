@@ -1,0 +1,25 @@
+body{
+	font-family: 'Lato' sans-serif;
+	border: solid 16px #dddddd;
+}
+h1 {
+	color: red;
+	font-weight: 300;
+	margin-bottom: 5px;
+	font-size: 3em;
+	padding-left: 54px;
+}
+span{
+	color: #999980;
+	font-weight: normal;
+	font-size: 20px;
+}
+#container a{
+	background-color: black;
+	background-size:80px 60px;
+	color: white;
+	border: 5px;
+	text-decoration: none;
+	margin: 5px;
+
+}
