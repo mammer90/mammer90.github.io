@@ -69,12 +69,10 @@ nav a:hover {
   width: 49px;
   background-position: -49px 97px;
 }
-
 .twitter {
   width: 35px;
   background-position: -5px -43px;
 }
-
 .facebook {
   width: 47px;
   background-position: -5px -68px;
@@ -82,7 +80,6 @@ nav a:hover {
 .rss {
   width: 50px;
   background-position: -5px -80px;
-
 }*/
 
 #button_blurb{
@@ -156,12 +153,12 @@ footer {
   color: #dddddd;
 }
 #copyright {
-  display: inline-block;
+  /*display: inline-block;*/
   float: left;
   clear: both;
 }
 #companybottom {
-  display: inline-block;
+  /*display: inline-block;*/
   float: right;
 }
 

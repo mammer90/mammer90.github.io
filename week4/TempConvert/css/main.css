@@ -1,0 +1,28 @@
+h1 {
+text-align: center;
+font-size: 50px;
+
+}
+body {
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%);
+	font-family: tahoma;
+}	
+#main {
+	width: 900px;
+	height: 900px;
+	border: 5px inset black;
+}
+p{
+	font-size: 50px;
+}
+input, button {
+	font-size: 50px;
+	border-radius: 20px;
+
+}
+#result {
+	background-color: #66ccff;
+	width: 700px;
+	border-radius: 40px;
+	border: 4px inset #8585ff;
+}
