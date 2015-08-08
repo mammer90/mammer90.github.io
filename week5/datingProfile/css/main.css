@@ -1,0 +1,72 @@
+body {
+	background: url(../images/mariobanner.jpg);
+	background-position: scroll;
+	background-repeat: repeat;
+	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
+}
+h1, h2{
+	text-align: center;
+	text-decoration: underline;
+}
+a { 
+	float: right;
+	text-decoration: none;
+	font-size: 60px;
+
+}
+a:hover{
+	color: red;
+}
+
+#container {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px;
+    border: 20px groove transparent;
+}
+#topLink p {
+	text-align: right;
+	float: right;
+	font-size: 30px;
+	color: #000099;
+	
+}
+#mario {
+	width: 500px;
+	height: 300px;
+}
+#trivia {
+	border: 4px groove blue;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	float: right;
+	margin-right: 50px;
+}
+#topLink{
+
+}
+
+p span.underline {
+	text-decoration: underline;
+	font-size: 30px;
+}
+@-webkit-keyframes blink { 
+   50% { border-color: #800000; } 
+}
+@keyframes blink { 
+   50% { border-color: #800000; } 
+}
+
+#container:hover {
+    animation: blink .5s step-end infinite alternate;
+    -webkit-animation: blink .5s step-end infinite alternate;
+}
+footer	{
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	clear: both;
+	color: #CC7A00;
+}
