@@ -1,0 +1,118 @@
+body {
+	font-family: 'Play', sans-serif;
+	background: url(../images/cloud_2.gif);
+  background-position: fixed;
+	
+}
+h1 {
+	color: #6E6EF5;
+	text-align: center;
+	font-size: 70px;
+	text-decoration: underline;
+	
+	
+}
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+#jumpman {
+    position: fixed;
+    top: 10;
+  	left: 10;
+  	padding: 30px;
+    margin-top: 10%;
+}
+#dancingcow{
+
+    position: fixed;
+  	top: 20;
+  	left: 30;
+  	padding: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#cow41{
+	position: fixed;
+	top: 40;
+  left: 50;
+  padding: 15px;
+  margin-left: 60px;
+  	
+ 
+}
+#cow1{
+	position: fixed;
+  	bottom: 50;
+  	right: 60;
+  	padding: 10px;
+    margin-bottom: 60px;
+}
+#farm1{
+	position: fixed;
+  	bottom: 70;
+  	right: 80;
+  	padding: 10px;
+    margin-left: 280px;
+    margin-top: 100px;
+ }
+ #horse{
+	position: fixed;
+  	bottom: 90;
+  	right: 100;
+  	padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+ }
+ #lamb{
+	position: fixed;
+  	bottom: 30;
+  	left: 40;
+  	padding: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
+ }
+ #roosterdance{
+	position: fixed;
+  	bottom: 70;
+  	right: 90;
+  	padding: 10px;
+}
+ #varken{
+	position: fixed;
+  	bottom: 30;
+  	right: 80;
+  	padding: 10px;
+}
+ #roosterfoot{
+	position: fixed;
+  	bottom: 20;
+  	right: 10;
+  	padding: 10px;
+}
+#sheep{
+	position: fixed;
+  	bottom: 100;
+  	top: 80;
+  	padding: 10px;
+ }
+ #sun{
+	position: fixed;
+  	bottom: 100;
+  	left: 100;
+  	padding: 10px;
+ }
+ #tree {
+ 	float: right;
+
+ }
+
+#grass {
+	width: 1300px;
+	height: 280px;
+	background-color: green;
+	clear: both;
+	
+}
+	
