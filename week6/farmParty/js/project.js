@@ -66,6 +66,12 @@ $("#sheep").mouseover(function() {
     "right": "80%"
 }, 3450);
 });
+$("#dives").mouseover(function() {
+  $(this).animate({
+    "top": "60%",
+    "right": "50%"
+}, 2450);
+});
 $("#sun").mouseover(function() {
   $(this).animate({
     "bottom": "80%",

@@ -97,6 +97,12 @@ h1 {
   	top: 80;
   	padding: 10px;
  }
+ #dives{
+  position: fixed;
+    bottom: 80;
+    top: 80;
+    padding: 10px;
+ }
  #sun{
 	position: fixed;
   	bottom: 100;
@@ -107,7 +113,6 @@ h1 {
  	float: right;
 
  }
-
 #grass {
 	width: 1300px;
 	height: 280px;
