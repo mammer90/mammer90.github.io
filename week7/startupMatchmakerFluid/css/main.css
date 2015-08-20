@@ -1,0 +1,276 @@
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p {
+	padding-bottom: 30px;
+}
+
+.button {
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: 0 3px 0 0 #999;
+	margin-bottom: 3px;
+	border-radius: 5px;
+}
+
+.button:hover {
+	box-shadow: none;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+#page-header {
+	background: black;
+	color: white;
+	overflow: hidden;
+	border-bottom: 4px solid yellow;
+	padding: 0 3%;
+	
+}
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+#page-header h1 {
+	float: left;
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 30px;
+	margin: 20px 0 0 0;
+}
+#page-header nav {
+	float: right;
+	width: 55%;
+	text-align: right;
+	padding: 20px 0;
+}
+#page-header nav a {
+	padding: 0 .3em;
+}
+#page-header nav a:hover {
+	color: yellow;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.tagline {
+	font-family: "Merriweather", serif;
+	text-align: center;
+	margin: 0;
+	padding: 20px 3%;
+	font-size: 25px;
+	line-height: 25px;
+	font-style: italic;
+	background: #C6C6C6;
+	border-top: 1px solid #AAA;
+}
+
+#taste {
+	color: #999;
+	text-decoration: line-through;
+}
+
+#are {
+	border-bottom: 3px solid yellow;
+}
+
+.banner {
+	background: url("../images/coworking.jpg") center center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	padding: 3%;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+.blurb {
+	background: rgba(255,255,255,.8);
+	width: 34%;
+	margin: 0 auto;
+	padding: 4%;
+	float: right;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.callouts {
+	background: #eee;
+	overflow: hidden;
+	padding: 2% 0;
+}
+
+.callout {
+	float: left;
+	width: 33.3333%;
+	padding: 2% 3%;
+	box-sizing: border-box;
+	border-right: 1px solid rgb(200,200,200);
+	
+}
+
+.callout:last-child {
+	border: none;
+}
+
+.callout .button {
+	background: #C6C6C6;
+}
+
+#menu-toggle {
+	display: none;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 30px;
+	cursor: pointer;
+	color: white; 
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 2% 3%;
+}
+@media only screen and (min-width: 1400px) {
+	#container {
+		width: 1200px;
+	}
+	
+}
+
+@media only screen and (max-width: 1024px){
+	#container {
+		width: 100%;
+	}
+	nav a {
+		padding: 5px;
+	}
+	.callouts {
+		float: none;
+		width: auto;
+		margin: auto;
+		border-bottom: 3px solid #bbb;
+	}
+	#page-header nav a {
+		padding: 0 .3em;
+		font-size: .7em;
+	}
+	h1 a{
+		font-size: .7em;
+	}
+		
+		
+}
+
+
+@media only screen and (max-width: 685px){
+	.callouts, .blurb {
+		width: auto;
+		float: none;
+	}
+	h1 {
+		text-align: left;
+		font-size: 	1em;
+		padding: 0 2%;
+	}
+	h1 a {
+		font-size: .6em;
+	}
+	h2, h3 {
+		font-size: .6em;
+		text-align: center;
+	}
+	#page-header h1 {
+		margin: 20px 0 0 0;
+		font-size: 20px;
+		float: none;
+	}
+	#page-header nav {
+		float: right;
+
+
+	 
+}
+
+
+@media only screen and (max-width: 500px){
+	#container {
+		width: auto;
+	}
+	h1, h2, h3, p {
+		padding: 0 2%;
+	}
+	header {
+		text-align: left;
+	}
+	nav a {
+		float: none;
+		width: auto;
+	}
+	nav {
+		width: 100%;
+		position: absolute;
+		top: 1.2em;
+		left: 0;
+		display: none;
+	}
+	#menu-toggle {
+		display: block;
+
+	}
+	.button {
+	padding: 5px;
+	box-shadow: 0 2px 0 0 #999;
+	margin-bottom: 2px;
+	border-radius: 5px;
+}
+	a {
+		font-size: .4em;
+	}
+
+	.wrapper{
+		font-size: .5em;
+	}
+	#page-header nav a {
+		padding: 0 .1em;
+		color: black;
+		font-size: .4em;
+		text-align: left;
+		width: 100%;
+}
+	#page-header nav a:hover {
+		color: yellow;
+		font-size: .4em;
+		text-decoration: underline;
+}

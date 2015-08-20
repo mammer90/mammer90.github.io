@@ -1,8 +1,8 @@
 $(document).ready(function(){
 $("#jumpman").mouseover(function() {
   $(this).animate({
-    "top": "50%",
-    "left": "60%"
+    "height": "10%",
+    "width": "80%"
 }, 4000);
 });
 });
