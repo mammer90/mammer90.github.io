@@ -541,23 +541,19 @@ figcaption {
     font-size: 0.8em;
     background-size: 80%;
   }
-  
-    #container {
+  #container {
     float: none;
-    width: 90%;
-    height: 30%;
     margin: 0 auto;
   }
   .tv {
-  background-size: 60%;
-  
-  }
+    background-size: 60%;
+ }
   .tv iframe {
-  border-radius: 41px;
-  padding: 7px;
-  margin-left: 11px;
-  width: 150px;
-  height: 100px;
+    border-radius: 41px;
+    padding: 7px;
+    margin-left: 11px;
+    width: 150px;
+    height: 100px;
   }
 
   .images figure img{
@@ -567,8 +563,6 @@ figcaption {
     display: none;
   }
   .images {
-    height: 50%;
-    margin: 0 auto;
-    background-repeat: none;
+    background: url(../images/NES_logo_large.png);
   }
 }
