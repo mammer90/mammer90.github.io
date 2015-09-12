@@ -234,6 +234,9 @@ footer p {
     width: 30%;
     height: 30%;
   }
+  body audio {
+    display: none;
+  }
 }
    
 
