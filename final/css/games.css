@@ -564,5 +564,6 @@ figcaption {
   }
   .images {
     background: url(../images/NES_logo_large.png);
+    background-repeat: no-repeat;
   }
 }
