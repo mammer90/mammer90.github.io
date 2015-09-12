@@ -1,0 +1,574 @@
+body {
+  font-family: 'Happy Monkey', sans-serif, cursive; 
+  font-size: 20px;
+  background: url(../images/launch_titles.jpg);
+  opacity: .95;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+h1 {
+  color: white;
+	text-align: center;
+	background-color: #3db2e1;
+	border: 3px inset red;
+  height: 60px;
+  padding-top: 10px;
+}
+
+h2 {
+  padding: 1%;
+  margin: 0% auto;
+}
+
+#links a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  background-color: #cccccc;
+  box-shadow: 0 5px 0 0 gray;
+  margin-bottom: 5px;
+}
+
+#links a:hover {
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#nav,
+#nav ul,
+#nav ul li,
+#nav ul li a,
+#nav #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#nav:after,
+#nav > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#nav #menu-button {
+  display: none;
+}
+#nav {
+  width: auto;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#nav > ul {
+  background: #3db2e1;
+}
+#nav > ul > li {
+  float: left;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+#nav.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#nav.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#nav.align-right > ul > li {
+  float: right;
+}
+#nav > ul > li > a {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #3db2e1;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#nav > ul > li.active > a {
+  color: #dff2fa;
+}
+#nav > ul > li:hover > a,
+#nav > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: rotateX(90deg) translateY(-23px);
+  -moz-transform: rotateX(90deg) translateY(-23px);
+  transform: rotateX(90deg) translateY(-23px);
+  -ms-transform: none;
+}
+#nav > ul > li > a::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 20px;
+  color: #dff2fa;
+  background: #19799f;
+  content: attr(data-title);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -ms-transform: translateY(- -18px);
+}
+#nav > ul > li:hover > a::before,
+#nav > ul > li > a:hover::before {
+  background: #3db2e1;
+}
+#nav.small-screen {
+  width: 100%;
+}
+#nav.small-screen > ul,
+#nav.small-screen.align-center > ul {
+  width: 100%;
+  text-align: left;
+}
+#nav.small-screen > ul > li,
+#nav.small-screen.align-center {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+}
+#nav.small-screen > ul > li:hover > a,
+#nav.small-screen > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  -ms-transform: none;
+}
+#nav.small-screen > ul > li > a::before {
+  display: none;
+}
+#nav.small-screen #menu-button {
+  display: block;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #3db2e1;
+}
+#nav.small-screen #menu-button:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  width: 22px;
+  height: 3px;
+}
+#nav.small-screen #menu-button.menu-opened:after {
+  border-top: 2px solid #dff2fa;
+  border-bottom: 2px solid #dff2fa;
+}
+#nav.small-screen #menu-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+}
+#nav.small-screen #menu-button.menu-opened:before {
+  background: #dff2fa;
+}
+
+#container {
+  width: 95%;
+  margin: 27px auto;
+  border: 1px solid black;
+}
+.tv {
+  background: url(../images/oldtv.jpg);
+  background-size: 100%;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin-left: 5px;
+
+}
+.tv iframe {
+  border-radius: 41px;
+  padding: 7px;
+  margin-left: 11px;
+}
+
+figure {
+  float: left;
+}
+figcaption {
+  text-align: center;
+}
+
+.images {
+  width: 96%;
+  height: 200px;
+  margin-left: 3%;
+  padding-bottom: 8%;
+}
+
+.images img {
+  padding: 30px;
+  margin: 0 auto;
+}
+#yardimg {
+  background: url(../images/10_yard_fight_bg.jpeg);
+
+  }
+#baseimg {
+  background: url(../images/baseball_bg.jpg);
+}
+#cluimg {
+  background: url(../images/clu_clu_land_bg.jpeg);
+}
+#cluimg figcaption {
+  color: white;
+  font-size: 1.2em;
+  line-height: 0px;
+}
+#duckimg {
+  background: url(../images/duck_hunt_bg.png);
+  width: 96%;
+  height: 24%;
+}
+#duckimg figure {
+  margin-top: 5%;
+}
+#duckimg figcaption {
+  color: white;
+  font-size: 1.2em;
+}
+#bikeimg {
+  background: url(../images/excitebike_bg.png);
+}
+#bikeimg figure {
+  opacity: .8;
+}
+#golfimg {
+  background: url(../images/golf_bg.jpg);
+  width: 96%;
+  height: 30%;
+}
+#golfimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#gyroimg {
+  background: url(../images/gyromite_bg.jpg);
+  width: 96%;
+  height: 30%;
+}
+#gyroimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#gyroimg figure {
+  margin-top: 3%;
+}
+#hoganimg {
+  background: url(../images/hogans_alley_bg.png);
+  width: 96%;
+  height: 30%;
+}
+#hoganimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#iceimg {
+  background: url(../images/ice_climber_bg.jpg);
+  width: 96%;
+  height: 30%;
+}
+#iceimg figcaption {
+  color: white;
+  font-size: 1.5em;
+}
+#iceimg figure {
+  margin-top: 16%;
+}
+#kungimg {
+  background: url(../images/kung_fu_bg.jpg);
+  width: 96%;
+  height: 29%;
+}
+#kungimg figcaption {
+  color: white;
+  font-size: 1.5em;
+}
+#kungimg figure {
+  margin-top: 16%;
+}
+#pinimg {
+  background: url(../images/pinball_bg.png);
+  width: 96%;
+  height: 31%;
+  background-size: cover;
+}
+#pinimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#pinimg figure {
+  margin-top: 16%;
+}
+#soccerimg {
+  background: url(../images/soccer_bg.jpg);
+  width: 96%;
+  height: 31%;
+}
+#soccerimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#soccerimg figure {
+  margin-top: 9%;
+}
+#stackimg {
+  background: url(../images/stackup_bg.jpg);
+  width: 96%;
+  height: 31%;
+}
+#stackimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#stackimg figure {
+  margin-top: 7%;
+}
+#marioimg {
+  background: url(../images/super_mario_bros_bg.png);
+  width: 96%;
+  height: 16%;
+}
+#marioimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#marioimg figure {
+  margin-top: 3%;
+}
+#tennisimg {
+  background: url(../images/tennis_bg.jpg);
+  width: 96%;
+  height: 30%;
+}
+#tennisimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#tennisimg figure {
+  margin-top: 3%;
+}
+#gunimg {
+  background: url(../images/wild_gunman_bg.jpg);
+  width: 96%;
+  height: 26%;
+}
+#gunimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#gunimg figure {
+  margin-top: 6%;
+}
+#wreckingimg {
+  background: url(../images/wrecking_crew_bg.png);
+  width: 96%;
+  height: 19%;
+}
+#wreckingimg figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+#wreckingimg figure {
+  margin-top: 2%;
+}
+.row header {
+  height: 100px;
+  cursor: pointer;
+}
+
+.row header h2 {
+  padding-left: 50px;
+  line-height: 100px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+.row header h2 img {
+  width: 70px;
+  height: 70px;
+  
+}
+#tennis, #golf, #yard,  {
+  height: 950px;
+}
+#duck, #excitebike, #ice, #kung {
+  height: 1900px;
+}
+#mario {
+  height: 2400px;
+}
+.wrapper {
+  height: 1400px;
+  display: none;
+  background-color: white;
+  padding: 20px;
+}
+#cluclu h2 {
+  color: black;
+}
+#baseball{
+  border-bottom: 1px solid black;
+}
+.row:nth-child(1) header {
+  background-color: #000000;
+}
+.row:nth-child(2) header {
+  background-color: #9D9D9D;
+}
+.row:nth-child(3) header {
+  background-color: #FFFFFF;
+}
+.row:nth-child(4) header {
+  background-color: #BE2633;
+}
+.row:nth-child(5) header {
+  background-color: #E06F8B;
+}
+.row:nth-child(6) header {
+  background-color: #493C2B;
+}
+.row:nth-child(7) header {
+  background-color: #A46422;
+}
+.row:nth-child(8) header {
+  background-color: #EB8931;
+}
+.row:nth-child(9) header {
+  background-color: #F7E26B;
+}
+.row:nth-child(10) header {
+  background-color: #2F484E;
+}
+.row:nth-child(11) header {
+  background-color: #44891A;
+}
+.row:nth-child(12) header {
+  background-color: #A3CE27;
+}
+.row:nth-child(13) header {
+  background-color: #1B2632;
+}
+.row:nth-child(14) header {
+  background-color: #005784;
+}
+.row:nth-child(15) header {
+  background-color: #31A2F2;
+}
+.row:nth-child(16) header {
+  background-color: #B2DCEF;
+}
+.row:nth-child(17) header {
+  background-color: #000000;
+}
+
+
+@media only screen and (max-width: 1200px){
+  .images figure img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+
+  }
+}
+
+@media only screen and (max-width: 850px){
+  body {
+    font-size: 0.8em;
+    background-size: 80%;
+  }
+  
+    #container {
+    float: none;
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+  }
+  .tv {
+  background-size: 60%;
+  
+  }
+  .tv iframe {
+  border-radius: 41px;
+  padding: 7px;
+  margin-left: 11px;
+  width: 150px;
+  height: 100px;
+  }
+
+  .images figure img{
+    display: none;
+  }
+  .images figcaption {
+    display: none;
+  }
+  .images {
+    height: 50%;
+    margin: 0 auto;
+    background-repeat: none;
+  }
+}
