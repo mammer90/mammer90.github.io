@@ -3,6 +3,7 @@ body {
   font-size: 20px;
   background: url(../images/launch_titles.jpg);
   opacity: .95;
+  background-position: scroll;
 }
 
 img {
@@ -563,7 +564,6 @@ figcaption {
     display: none;
   }
   .images {
-    background: url(../images/NES_logo_large.png);
     background-repeat: no-repeat;
   }
 }

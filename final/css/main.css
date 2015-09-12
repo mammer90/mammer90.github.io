@@ -214,7 +214,7 @@ h1 {
 }
 
 footer {
-  clear: both;
+  /*clear: both;*/
   background-color: #3db2e1;
   color: white;
   height: 100%;

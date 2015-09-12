@@ -1,8 +1,5 @@
 $(document).ready(function(){
- //$('#burger').click(function(){
-   // $('#small-nav').slideToggle();
- // });
-$("header").click(function(){
+ $("header").click(function(){
     $(this).next().slideToggle(500);
 
   });
